@@ -1,0 +1,31 @@
+$primary: #333;
+$secondary: #EEE;
+$ternary: turquoise;
+$accent : tomato;
+
+
+body{
+    background-color: $primary;
+    color: $secondary;
+    display : grid;
+    place-content: center;
+}
+
+h1{
+    color: $accent;
+    text-align: center;
+
+    &:hover {
+       text-decoration: underline; 
+       cursor: pointer;
+    }
+}
+
+h2{
+    color: $ternary;
+}
+
+p{
+    max-width: 65ch;
+    text-align: justify;
+}

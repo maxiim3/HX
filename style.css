@@ -1,0 +1,27 @@
+body {
+  background-color: #333;
+  color: #EEE;
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+}
+
+h1 {
+  color: tomato;
+  text-align: center;
+}
+
+h1:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+h2 {
+  color: turquoise;
+}
+
+p {
+  max-width: 65ch;
+  text-align: justify;
+}
+/*# sourceMappingURL=style.css.map */
